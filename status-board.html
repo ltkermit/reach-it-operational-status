@@ -571,7 +571,7 @@
   <div class="dept-grid" id="deptGrid"></div>
 
   <p class="section-label">Change History</p>
-
+<!--
   <div class="history-section">
     <div class="history-header" onclick="toggleHistory()">
       <div class="history-title">
@@ -584,7 +584,7 @@
       <div class="no-history" id="noHistory">No status changes recorded yet.</div>
     </div>
   </div>
-
+-->
 </div>
 
 <!-- Modal -->
@@ -730,7 +730,7 @@ function renderCards() {
     grid.appendChild(card);
   });
 }
-/*
+
 function renderHistory() {
   const body = document.getElementById('histBody');
   const noHist = document.getElementById('noHistory');
@@ -765,7 +765,7 @@ function renderHistory() {
     body.appendChild(el);
   });
 }
-*/
+
 function colorVar(status) {
   if (status === 'green') return 'var(--green)';
   if (status === 'yellow') return 'var(--yellow)';
